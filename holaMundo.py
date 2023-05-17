@@ -1,3 +1,4 @@
+import time
 print("Hola Mundo!!!")
 
 def saludar():
@@ -6,7 +7,12 @@ def saludar():
 
 print(saludar())
 
-nombre = input("Introduce tu nombre: ")
+def pedir_edad():
+    edad = int(input("Introduce tu edad: "))
 
-for i in range(10):
-    print(nombre)
+    for i in range(1, edad+1):
+        print("Has cumplido " + str(i) + " años")
+
+print(pedir_edad())
+
+time.sleep(5)
