@@ -5,3 +5,6 @@ def saludar():
     return "Hola", nombre
 
 print(saludar())
+
+x = "\nCambio de un colaborador :D"
+print(x)
